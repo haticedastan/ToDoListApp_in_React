@@ -9,6 +9,7 @@ export default class ToDoList extends Component {
                         <div key={task.id}>
                             <li>
                                 {task.name}
+                                <button>Delete</button>
                             </li>
                         </div>
                     )
