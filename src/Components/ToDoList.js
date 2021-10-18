@@ -7,10 +7,11 @@ export default class ToDoList extends Component {
                 {this.props.tasks.map(task=>{
                     return(
                         <div key={task.id}>
-                            <li>
-                                {task.name}
-                                <button>Delete</button>
-                            </li>
+                            <li className={task.done ? "done" : ""}
+                            onClick={()=>this.props.cizToDo(task.name)}>
+                             {task.name} 
+                            </li> 
+                            <button onClick={()=>this.props.removeToDo(task.name)}>Delete</button>
                         </div>
                     )
                 })}
