@@ -23,7 +23,7 @@ export default class ToDo extends Component {
                 <input type="text" 
                 value={this.state.input}
                 onChange={this.changeHadler}/>
-                <button type="submit">Add</button>
+                <button type="submit">+</button>
             </form>
         )
     }

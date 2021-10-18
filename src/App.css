@@ -4,7 +4,9 @@
     margin-top: 50px;
     width: 500px;
     background-color: rgb(189, 173, 204);
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom:15px;
+
     border-radius: 10px;
     -webkit-box-shadow: 46px 40px 37px 3px rgba(0,0,0,0.64);
     -moz-box-shadow: 46px 40px 37px 3px rgba(0,0,0,0.64);
@@ -16,19 +18,19 @@
   }
 
   form input{
-      width:  80%;
-      line-height: 40px;
-      border: 1.5px solid black;
-      border-radius: 2px;
+      line-height: 30px;
+      border: 1.5px solid rgb(156, 156, 156);
+      border-radius: 3px;
       outline-style: none;
       font-size: 20px;
   }
 
   button{
-      background-color: coral;
-      color:white;
+      border:3px solid rgb(189, 173, 204);
+      background-color: rgb(255, 255, 255);
+      color:rgb(0, 0, 0);
       outline:none;
-      border-radius: 5px;
+      
   }
 
   form button {
@@ -44,13 +46,23 @@
       display: inline-block;
       width: 80%;
       font-size: 20px;
-      color:white;
-      border-bottom: 2px solid rgb(0, 0, 0);
+      color:rgb(0, 0, 0);
+      border-bottom: 2px solid rgba(177, 67, 67, 0.281);
       text-align: left;
       list-style: none;
+      padding-top: 5px;
+      margin-top: 10px;
+      
   }
 
   .done{
       text-decoration-line: line-through;
       text-decoration-color: rgb(255, 255, 0);
+  }
+
+  .delete{
+      width: 30px;
+      height: 30px;
+      padding: 3px;
+
   }

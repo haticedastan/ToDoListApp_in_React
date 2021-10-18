@@ -11,7 +11,7 @@ export default class ToDoList extends Component {
                             onClick={()=>this.props.cizToDo(task.name)}>
                              {task.name} 
                             </li> 
-                            <button onClick={()=>this.props.removeToDo(task.name)}>Delete</button>
+                            <button className="delete" onClick={()=>this.props.removeToDo(task.name)}>-</button>
                         </div>
                     )
                 })}
